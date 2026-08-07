@@ -1,9 +1,9 @@
 
-# Wideband SDR (50–800 MHz)
+# Wideband SDR (50–850 MHz)
 
 ## Overview
 
-This project is a custom software-defined radio (SDR) designed to receive signals from **50 MHz to 800 MHz**. The goal is to build a modular, low-cost SDR while learning RF engineering, analog design, FPGA development, and digital signal processing from the ground up.
+This project is a custom software-defined radio (SDR) designed to receive signals from 50 MHz to 800 MHz. The goal is to build a modular, low-cost SDR while learning RF engineering, analog design, FPGA development, and digital signal processing from the ground up.
 
 Unlike many hobby SDRs that rely on integrated tuner chips, this design emphasizes a discrete RF front-end consisting of filter banks, RF switching, amplification, and an I/Q receiver architecture.
 
@@ -13,7 +13,7 @@ Unlike many hobby SDRs that rely on integrated tuner chips, this design emphasiz
 
 ## Goals
 
-* Receive signals from **50 MHz to 800 MHz**
+* Receive signals from 50 MHz to 850 MHz
 * Modular RF front-end
 * Good dynamic range
 * Low noise figure
@@ -73,7 +73,7 @@ PC
 
 | Parameter       |                          Target |
 | --------------- | ------------------------------: |
-| Frequency Range |                      50–800 MHz |
+| Frequency Range |                      50–850 MHz |
 | Architecture    | Superheterodyne / Zero-IF (I/Q) |
 | Output          |                    I/Q Baseband |
 | Interface       |                             USB |
@@ -156,7 +156,7 @@ This project is intended to serve as a platform for learning and experimentation
 * SDR Software
 * Communication Systems
 
-Future versions may expand beyond 800 MHz and incorporate additional features as experience is gained.
+Future versions may expand beyond 850 MHz and incorporate additional features as experience is gained.
 
 ---
 
