@@ -26,44 +26,8 @@ Unlike many hobby SDRs that rely heavily on highly integrated tuner/transceiver 
 
 ## Current Architecture
 
-```text
-Antenna
-    │
-    ▼
-RF Protection
-    │
-    ▼
-Bandpass Filter Bank
-    │
-    ▼
-RF Switch
-    │
-    ▼
-LNA
-    │
-    ▼
-Quadrature Receiver / Mixer
-    │
-    ▼
-Intermediate Frequency
-    │
-    ▼
-IF Mixer / Quadrature Conversion
-    │
-    ├──────────────► I ──► ADC ──┐
-    │                            │
-    └──────────────► Q ──► ADC ──┤
-                                 ▼
-                                FPGA
-                                 │
-                          Digital Signal
-                            Processing
-                                 │
-                                 ▼
-                                USB
-                                 │
-                                 ▼
-                              Host PC
+The signal starts at the antenna and passes through the RF protection and switched bandpass filter bank before being amplified by the LNA. From there it goes through the quadrature receiver and intermediate-frequency conversion stages, producing differential I/Q signals for the ADC. The ADC sends the digitized samples to the FPGA, where the DSP will be performed before the data is eventually sent to the host PC over USB.
+
 ```
 
 The receiver uses multiple local oscillator paths generated from PLL frequency synthesizers referenced to a stable TCXO.
