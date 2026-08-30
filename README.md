@@ -273,7 +273,3 @@ This project is intended to serve as a platform for experimentation and learning
 Future revisions may improve filtering, dynamic range, instantaneous bandwidth, frequency coverage, DSP capabilities, and host software.
 
 ---
-
-## Disclaimer
-
-This is an educational engineering project. Specifications and architecture may change as the hardware is manufactured, tested, and characterized. Unless explicitly stated otherwise, listed specifications are design targets rather than measured performance.
