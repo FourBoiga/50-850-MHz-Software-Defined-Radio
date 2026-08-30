@@ -191,8 +191,8 @@ The next steps are to perform the final PCB review, finalize the BOM, and submit
 * [x] ADC integrated
 * [x] Debug SMA/test infrastructure added
 * [x] PCB layout completed
-* [ ] Final PCB review
-* [ ] Finalize BOM
+* [x] Final PCB review
+* [x] Finalize BOM
 * [ ] Submit for manufacturing/funding
 * [ ] Manufacture PCB
 * [ ] Hardware bring-up
