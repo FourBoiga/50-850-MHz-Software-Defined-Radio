@@ -6,7 +6,9 @@ This project is a custom software-defined radio (SDR) designed to receive signal
 
 Unlike many hobby SDRs that rely heavily on highly integrated tuner/transceiver ICs, this design uses discrete RF building blocks for much of the signal chain, including filtering, switching, amplification, mixing, local oscillator generation, and quadrature I/Q conversion.
 
-> **Project Status:** PCB design complete — preparing for manufacturing and FPGA/DSP development
+> **Kicanvas Schematic:** https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FFourBoiga%2F50-850-MHz-Software-Defined-Radio%2Fblob%2Fmain%2FSDR.kicad_sch
+
+> **Kicanvas Schematic:** https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FFourBoiga%2F50-850-MHz-Software-Defined-Radio%2Fblob%2Fmain%2FSDR.kicad_pcb
 
 ---
 
