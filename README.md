@@ -8,8 +8,6 @@ Unlike many hobby SDRs that rely heavily on highly integrated tuner/transceiver 
 
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FFourBoiga%2F50-850-MHz-Software-Defined-Radio%2Fblob%2Fmain%2FPCB%2FSDR.kicad_pcb)
 
-> **Kicanvas PCB:** https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FFourBoiga%2F50-850-MHz-Software-Defined-Radio%2Fblob%2Fmain%2FSDR.kicad_pcb
-
 ---
 
 ## Goals
