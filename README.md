@@ -177,34 +177,6 @@ The next steps are to perform the final PCB review, finalize the BOM, and submit
 
 ---
 
-## Development Progress
-
-* [x] Initial system architecture
-* [x] Frequency range defined
-* [x] Filter bank designed
-* [x] RF switching designed
-* [x] LNA integrated
-* [x] Receiver/mixer circuitry integrated
-* [x] Local oscillator designed
-* [x] PLL synthesizers integrated
-* [x] I/Q differential routing completed
-* [x] ADC integrated
-* [x] Debug SMA/test infrastructure added
-* [x] PCB layout completed
-* [x] Final PCB review
-* [x] Finalize BOM
-* [ ] Submit for manufacturing/funding
-* [ ] Manufacture PCB
-* [ ] Hardware bring-up
-* [ ] FPGA ADC interface
-* [ ] Initial DSP implementation
-* [ ] I/Q streaming to PC
-* [ ] Host-side FFT/spectrum visualization
-* [ ] SDR++ integration
-* [ ] RF characterization
-
----
-
 ## Software
 
 ### FPGA
