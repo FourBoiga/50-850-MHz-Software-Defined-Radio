@@ -9430,6 +9430,12 @@
 		(uuid "7f99b1ec-6725-4507-8e04-dd583dcca767")
 	)
 	(junction
+		(at 539.75 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82ea86c2-dff6-44c5-b45f-d5d973d77bdd")
+	)
+	(junction
 		(at 290.83 344.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10147,7 +10153,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 300.99) (xy 538.48 300.99)
+			(xy 533.4 300.99) (xy 539.75 300.99)
 		)
 		(stroke
 			(width 0)
@@ -10527,7 +10533,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 297.18) (xy 543.56 295.91)
+			(xy 546.1 297.18) (xy 546.1 295.91)
 		)
 		(stroke
 			(width 0)
@@ -10567,7 +10573,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 298.45) (xy 535.94 298.45)
+			(xy 533.4 298.45) (xy 539.75 298.45)
 		)
 		(stroke
 			(width 0)
@@ -11847,6 +11853,16 @@
 	)
 	(wire
 		(pts
+			(xy 539.75 295.91) (xy 533.4 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750bbb90-c801-4307-8cc6-eb6b6f1c92b9")
+	)
+	(wire
+		(pts
 			(xy 490.22 140.97) (xy 492.76 140.97)
 		)
 		(stroke
@@ -11934,6 +11950,16 @@
 			(type default)
 		)
 		(uuid "7b62f272-3a11-4557-8ca1-31803c76aa07")
+	)
+	(wire
+		(pts
+			(xy 539.75 295.91) (xy 539.75 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4b0336-e014-4073-bd28-cdf87807b86b")
 	)
 	(wire
 		(pts
@@ -12407,7 +12433,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 295.91) (xy 533.4 295.91)
+			(xy 546.1 295.91) (xy 539.75 295.91)
 		)
 		(stroke
 			(width 0)
@@ -12574,6 +12600,16 @@
 			(type default)
 		)
 		(uuid "a0fd4a5e-2184-4fdc-b254-35f8e1c83ea9")
+	)
+	(wire
+		(pts
+			(xy 539.75 298.45) (xy 539.75 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13e6580-a94c-424f-a873-c0836767e151")
 	)
 	(wire
 		(pts
@@ -12744,6 +12780,16 @@
 			(type default)
 		)
 		(uuid "aac7b817-6e7f-420a-bd93-37803c8229a3")
+	)
+	(wire
+		(pts
+			(xy 539.75 300.99) (xy 539.75 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaca56b8-e280-427b-85f6-52022c7876f1")
 	)
 	(wire
 		(pts
@@ -16585,7 +16631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 162.56 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -21675,85 +21721,6 @@
 			(project "SDR"
 				(path "/8d810f61-405f-4958-b618-c99ce9e26cf2"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 538.48 300.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41785967-5f8f-458e-bbbb-9efd6dd46ddf")
-		(property "Reference" "TP2"
-			(at 541.02 296.4179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCK+"
-			(at 541.02 298.9579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 543.56 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 543.56 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 538.48 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "09e19898-36c8-4036-9f69-25b53caf139e")
-		)
-		(instances
-			(project "SDR"
-				(path "/8d810f61-405f-4958-b618-c99ce9e26cf2"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -28859,7 +28826,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 543.56 297.18 0)
+		(at 546.1 297.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28869,7 +28836,7 @@
 		(dnp no)
 		(uuid "8d9792c5-9547-4b08-b38c-28939d0267a5")
 		(property "Reference" "#PWR072"
-			(at 543.56 303.53 0)
+			(at 546.1 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28880,7 +28847,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 543.56 301.244 0)
+			(at 546.1 301.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28890,7 +28857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 543.56 297.18 0)
+			(at 546.1 297.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28901,7 +28868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 543.56 297.18 0)
+			(at 546.1 297.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28912,7 +28879,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 543.56 297.18 0)
+			(at 546.1 297.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28929,84 +28896,6 @@
 			(project "SDR"
 				(path "/8d810f61-405f-4958-b618-c99ce9e26cf2"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 535.94 298.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8e1b5d5a-7f22-4830-9b9f-f8fa35f27a43")
-		(property "Reference" "TP1"
-			(at 538.48 293.8779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCK-"
-			(at 538.48 296.4179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 541.02 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 541.02 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 535.94 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c0b7d7a-a3ef-4c2b-9ea3-d4a09753efe8")
-		)
-		(instances
-			(project "SDR"
-				(path "/8d810f61-405f-4958-b618-c99ce9e26cf2"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -30862,6 +30751,91 @@
 			(project "SDR"
 				(path "/8d810f61-405f-4958-b618-c99ce9e26cf2"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 544.83 299.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a05d1023-35d8-4662-95f5-419cdfc6ee8a")
+		(property "Reference" "J10"
+			(at 546.1 298.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Tang Nano"
+			(at 546.1 300.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x03_P4.5mm_D0.65mm_OD2mm"
+			(at 544.83 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 544.83 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 544.83 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd33db2e-f56d-4301-be5b-58dc0e588c19")
+		)
+		(pin "1"
+			(uuid "b410ad7a-f583-4f93-b08f-8e2515a23e13")
+		)
+		(pin "3"
+			(uuid "de512a00-64bf-43c5-9c4f-66a177df3907")
+		)
+		(instances
+			(project "SDR"
+				(path "/8d810f61-405f-4958-b618-c99ce9e26cf2"
+					(reference "J10")
 					(unit 1)
 				)
 			)
