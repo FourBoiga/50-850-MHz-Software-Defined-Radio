@@ -1,10 +1,5 @@
 # Wideband Software Defined Radio — Development Logs
 
-Original project: [Weather Satellite and FM Radio — Hack Club Stardance](https://stardance.hackclub.com/projects/43286)  
-Author: [@Boiga](https://stardance.hackclub.com/@Boiga)  
-
-> Archived from Stardance, in chronological order. These entries describe the design as it evolved; later decisions supersede earlier plans. Images currently use the original Stardance URLs and should be downloaded into the repository before the website goes offline.
-
 ## Devlog 1 — Wideband Software Defined Radio
 
 **Time logged:** 17m 16s  
